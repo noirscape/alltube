@@ -1,0 +1,11 @@
+version: "1"
+rules:
+ - base: master
+   upstream: Rudloff:master
+   mergeMethod: hardreset
+   mergeUnstable: true
+ - base: develop
+   upstream: Rudloff:develop
+   mergeMethod: hardreset
+   mergeUnstable: true
+
